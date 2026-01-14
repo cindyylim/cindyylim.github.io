@@ -85,7 +85,7 @@ const Projects = () => {
         },
         grid: {
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
             gap: '2.5rem',
         },
         card: {
@@ -104,7 +104,6 @@ const Projects = () => {
             height: '220px',
             objectFit: 'cover',
             borderRadius: 'calc(var(--radius) - 5px)',
-            marginBottom: '1.5rem',
             transition: 'var(--transition)',
             border: '1px solid var(--border-color)',
         },
@@ -195,7 +194,7 @@ const Projects = () => {
                         <Link href={`/project/${project.id}`} style={{ display: 'block', overflow: 'hidden', borderRadius: 'calc(var(--radius) - 5px)', marginBottom: '1.5rem' }}>
                             <img src={project.image} alt={project.title} style={styles.cardImage} className="grid-img-hover" />
                         </Link>
-                        <div>
+                        <div style={{ flex: 1 }}>
                             <h3 style={styles.cardTitle}>{project.title}</h3>
                             <p style={styles.cardDesc}>{project.description}</p>
                             <div style={styles.tagList}>
