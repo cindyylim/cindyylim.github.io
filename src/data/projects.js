@@ -93,7 +93,7 @@ export const projects = [
         id: 'ecommerce-app',
         title: 'E-Commerce app',
         description: 'An application that lets users browse, search, and purchase products directly from their device. Manage orders, payments, and delivery without visiting a physical store.',
-        detailedDescription: 'Built a modern, responsive full-stack e-commerce platform with React, Node.js/Express, and MongoDB. Features include product browsing and search, shopping cart and secure checkout, inventory management with admin dashboard, item reservation to prevent overselling, polished mobile-first UI with Tailwind CSS and Framer Motion, Stripe payment integration, and optimized media handling with Cloudinary.',
+        detailedDescription: 'Built a modern, responsive full-stack e-commerce platform with React, Node.js/Express, and MongoDB. Features include product browsing and search, shopping cart and secure checkout, inventory management with admin dashboard, item reservation to prevent overselling, and Stripe payment integration',
         tags: ['React', 'Java', 'Node.js', 'Express', 'JWT', 'MongoDB', 'Redis'],
         image: '/images/front-page.png',
         images: [
