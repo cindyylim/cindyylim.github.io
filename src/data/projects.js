@@ -37,7 +37,6 @@ export const projects = [
             '/images/tickethub-purchase-ticket.png',
             '/images/tickethub-my-ticket.png',
         ],
-        link: 'https://github.com/cindyylim/ticket-system',
         github: 'https://github.com/cindyylim/ticket-system'
     },
     {
@@ -71,7 +70,6 @@ export const projects = [
             '/images/file-sync-app-login.png',
             '/images/file-sync-app-dashboard.png',
         ],
-        link: 'https://github.com/cindyylim/FileShareApp',
         github: 'https://github.com/cindyylim/FileShareApp'
     },
     {
@@ -89,7 +87,6 @@ export const projects = [
             '/images/confirmation.png',
             '/images/upcoming-booking.png',
         ],
-        link: 'https://github.com/cindyylim/BookingSystem',
         github: 'https://github.com/cindyylim/BookingSystem'
     },
     {
@@ -108,7 +105,6 @@ export const projects = [
             '/images/card-details.png',
             '/images/payment-success.png'
         ],
-        link: 'https://github.com/cindyylim/EcommerceStore',
         github: 'https://github.com/cindyylim/EcommerceStore'
     }
 ];

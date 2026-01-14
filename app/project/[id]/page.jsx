@@ -148,9 +148,10 @@ const ProjectDetails = async ({ params }) => {
                     <p style={styles.description}>{project.detailedDescription}</p>
 
                     <div style={styles.buttonGroup}>
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" style={{ ...styles.btn, ...styles.primaryBtn }} className="project-link">
-                            <ExternalLink size={18} /> Live Project
-                        </a>
+                        {project.link &&
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" style={{ ...styles.btn, ...styles.primaryBtn }} className="project-link">
+                                <ExternalLink size={18} /> Live Project
+                            </a>}
                         <a href={project.github} target="_blank" rel="noopener noreferrer" style={{ ...styles.btn, ...styles.secondaryBtn }} className="github-link">
                             <Github size={18} /> Source Code
                         </a>
