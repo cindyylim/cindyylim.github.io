@@ -23,7 +23,7 @@ export const projects = [
     },
     {
         id: 'ticket-system',
-        title: 'TicketHub - Ticketmaster Clone',
+        title: 'TicketHub',
         description: 'A full stack ticket booking system with distributed locking, Redis caching, Server-Sent Events (SSE) for real-time updates, and a virtual waiting queue to handle high traffic.',
         detailedDescription: 'TicketHub is a full stack event ticket booking platform built to handle high-traffic booking scenarios. It uses Redis distributed locking to prevent double-booking, Redis caching for fast data access, Server-Sent Events (SSE) for real-time seat availability updates, and a virtual FIFO queue to protect backend services under load. The frontend features a modern, responsive UI with interactive seat maps and live updates, while the backend exposes a RESTful API for bookings and user auth. The tech stack includes Node.js, Express, TypeScript, MongoDB, Redis, BullMQ, React, TypeScript, Vite, and JWT auth.',
         tags: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Redis', 'BullMQ', 'SSE', 'Vite', 'JWT'],
@@ -41,9 +41,9 @@ export const projects = [
     },
     {
         id: 'goodreads-clone',
-        title: 'Goodreads Clone',
-        description: "GoodreadsClone is a scalable social book platform inspired by Goodreads, built with a Node.js/Express backend and a React/Next.js frontend. It enables users to discover books, track their reading (e.g., Want to Read, Currently Reading, Read), rate and review titles, connect with friends, and join book clubs or discussions—all with user authentication and community features.",
-        detailedDescription: 'GoodreadsClone is a full stack web application that recreates core Goodreads functionality, allowing users to discover books, track their reading progress, and engage with a community of readers. Built with a React/Next.js frontend and a Node.js/Express backend, the app supports user authentication, book search, reading lists, ratings, and reviews. This project highlights modern full stack development, RESTful API design, and scalable application architecture.',
+        title: 'Social book platform',
+        description: "This is a scalable social book platform inspired by Goodreads, built with a Node.js/Express backend and a React/Next.js frontend. It enables users to discover books, track their reading (e.g., Want to Read, Currently Reading, Read), connect with friends, and join book clubs or discussions—all with user authentication and community features.",
+        detailedDescription: 'This is a full stack web application that recreates core Goodreads functionality, allowing users to discover books, track their reading progress, and engage with a community of readers. Built with a React/Next.js frontend and a Node.js/Express backend, the app supports user authentication, book search, and reading lists. This project highlights modern full stack development, RESTful API design, and scalable application architecture.',
         tags: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Next.js'],
         image: '/images/book-catalog.png',
         images: [
@@ -76,7 +76,7 @@ export const projects = [
         id: 'booking-app',
         title: 'Salon appointments app',
         description: 'A salon appointments app that allows users to book appointments with a salon.',
-        detailedDescription: 'Developed a full stack booking application enabling users to schedule appointments with time slot management, email reminders, and robust user workflows. The system supports both guest and authenticated user bookings and includes an administrative interface for managing available time slots.',
+        detailedDescription: 'Developed a full stack booking application enabling users to schedule appointments with time slot management, email reminders, and robust user workflows. The system supports authenticated user bookings and includes an administrative interface for managing available time slots.',
         tags: ['React', 'Java', 'Node.js', 'Express', 'Spring Boot', 'Spring Security', 'JPA', 'PostgreSQL', 'JWT', 'JavaMail'],
         image: '/images/booking-page.png',
         images: [

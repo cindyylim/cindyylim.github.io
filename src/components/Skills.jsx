@@ -8,7 +8,7 @@ const Skills = () => {
         },
         {
             title: 'Frameworks/Tools',
-            skills: ['React', 'Redux', 'GraphQL', 'PostgreSQL', 'AWS', 'Git', 'MongoDB', 'Node.js', 'Spring'],
+            skills: ['React', 'Redux', 'GraphQL', 'PostgreSQL', 'AWS', 'Git', 'MongoDB', 'Node.js', 'Spring', 'Selenium', 'Cucumber', 'Cypress'],
         }
     ];
 
