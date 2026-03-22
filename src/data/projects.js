@@ -106,5 +106,17 @@ export const projects = [
             '/images/payment-success.png'
         ],
         github: 'https://github.com/cindyylim/EcommerceStore'
+    },
+    {
+        id: 'newsletter-triage',
+        title: 'Newsletter Triage',
+        description: 'An automated AI-powered system that scrapes newsletters, generates intelligent summaries using Gemini, and delivers them via Telegram.',
+        detailedDescription: 'Newsletter Triage is a lightweight Python-based automation tool designed to solve information overload. It monitor RSS and Atom feeds, uses Google Gemini API to distill long articles into high-signal summaries, and categorizes them into user-defined niches. The summaries are delivered directly to your Telegram, ensuring you stay informed without the clutter of a traditional inbox. Built with a focus on simplicity and portability, it uses zero external dependencies and runs seamlessly as a scheduled background task.',
+        tags: ['Python', 'Google Gemini API', 'Telegram Bot API', 'RSS Automation', 'AI Summarization', 'Cron'],
+        image: '/images/newsletter-triage.png',
+        images: [
+            '/images/newsletter-triage.png',
+        ],
+        github: 'https://github.com/cindyylim/NewsletterTriage'
     }
 ];
