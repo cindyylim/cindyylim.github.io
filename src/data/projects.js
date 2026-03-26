@@ -22,6 +22,42 @@ export const projects = [
         github: 'https://github.com/cindyylim/LanguageLearningApp/tree/main'
     },
     {
+        id: 'newsletter-triage',
+        title: 'Newsletter Triage',
+        description: 'An automated AI-powered system that scrapes newsletters, generates intelligent summaries using Gemini, and delivers them via Telegram.',
+        detailedDescription: 'Newsletter Triage is a lightweight Python-based automation tool designed to solve information overload. It monitor RSS and Atom feeds, uses Google Gemini API to distill long articles into high-signal summaries, and categorizes them into user-defined niches. The summaries are delivered directly to your Telegram, ensuring you stay informed without the clutter of a traditional inbox. Built with a focus on simplicity and portability, it uses zero external dependencies and runs seamlessly as a scheduled background task.',
+        tags: ['Python', 'Google Gemini API', 'Telegram Bot API', 'RSS Automation', 'AI Summarization', 'Cron'],
+        image: '/images/newsletter-triage.png',
+        images: [
+            '/images/newsletter-triage.png',
+        ],
+        github: 'https://github.com/cindyylim/NewsletterTriage'
+    },
+    {
+        id: 'stock-monitor-bot',
+        title: 'Stock Monitor Bot',
+        description: 'A Python-based automated stock monitoring tool that calculates RSI and sends alerts via Telegram.',
+        detailedDescription: 'Stock Monitor Bot is a Python-based automation tool that monitors a customized list of stocks, calculates their Relative Strength Index (RSI) using yfinance data, and sends real-time alerts via Telegram when a stock becomes oversold or overbought. It features configurable watchlists, RSI thresholds, and check intervals, providing a seamless way to stay informed about market signals without manual tracking.',
+        tags: ['Python', 'yfinance', 'Pandas', 'Telegram Bot API', 'Automation', 'Financial Analysis'],
+        image: '/images/stock-monitor-bot.png',
+        images: [
+            '/images/stock-monitor-bot.png',
+        ],
+        github: 'https://github.com/cindyylim/Stock-Monitor-Bot'
+    },
+    {
+        id: 'mcp-pr-workflow-server',
+        title: 'MCP PR Workflow Server',
+        description: 'An MCP server that streamlines GitHub PR workflows, monitors CI/CD, and notifies teams via Slack.',
+        detailedDescription: 'The MCP PR Workflow Server is a TypeScript-based Model Context Protocol (MCP) server designed to enhance developer productivity by automating routine PR tasks. It provides tools for PR analysis, template suggestions, CI/CD monitoring with GitHub Actions, and integration with Slack for real-time notifications. It enables AI assistants like Claude to intelligently interact with GitHub repositories, helping teams maintain high-quality code and efficient communication.',
+        tags: ['TypeScript', 'Node.js', 'MCP', 'GitHub API', 'Slack API', 'CI/CD', 'Automation'],
+        image: '/images/mcp-pr-workflow-server.png',
+        images: [
+            '/images/mcp-pr-workflow-server.png',
+        ],
+        github: 'https://github.com/cindyylim/MCP-PR-Workflow-Server'
+    },
+    {
         id: 'ticket-system',
         title: 'TicketHub',
         description: 'A full stack ticket booking system with distributed locking, Redis caching, Server-Sent Events (SSE) for real-time updates, and a virtual waiting queue to handle high traffic.',
@@ -106,17 +142,5 @@ export const projects = [
             '/images/payment-success.png'
         ],
         github: 'https://github.com/cindyylim/EcommerceStore'
-    },
-    {
-        id: 'newsletter-triage',
-        title: 'Newsletter Triage',
-        description: 'An automated AI-powered system that scrapes newsletters, generates intelligent summaries using Gemini, and delivers them via Telegram.',
-        detailedDescription: 'Newsletter Triage is a lightweight Python-based automation tool designed to solve information overload. It monitor RSS and Atom feeds, uses Google Gemini API to distill long articles into high-signal summaries, and categorizes them into user-defined niches. The summaries are delivered directly to your Telegram, ensuring you stay informed without the clutter of a traditional inbox. Built with a focus on simplicity and portability, it uses zero external dependencies and runs seamlessly as a scheduled background task.',
-        tags: ['Python', 'Google Gemini API', 'Telegram Bot API', 'RSS Automation', 'AI Summarization', 'Cron'],
-        image: '/images/newsletter-triage.png',
-        images: [
-            '/images/newsletter-triage.png',
-        ],
-        github: 'https://github.com/cindyylim/NewsletterTriage'
     }
 ];
