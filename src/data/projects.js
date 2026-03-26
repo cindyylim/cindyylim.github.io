@@ -30,6 +30,7 @@ export const projects = [
         image: '/images/newsletter-triage.png',
         images: [
             '/images/newsletter-triage.png',
+            '/images/newsletter-alerts.png',
         ],
         github: 'https://github.com/cindyylim/NewsletterTriage'
     },
@@ -42,6 +43,7 @@ export const projects = [
         image: '/images/stock-monitor-bot.png',
         images: [
             '/images/stock-monitor-bot.png',
+            '/images/stock-alerts.png',
         ],
         github: 'https://github.com/cindyylim/Stock-Monitor-Bot'
     },
@@ -54,6 +56,14 @@ export const projects = [
         image: '/images/mcp-pr-workflow-server.png',
         images: [
             '/images/mcp-pr-workflow-server.png',
+            '/images/MCP-Server-1.png',
+            '/images/MCP-Server-2.png',
+            '/images/MCP-Server-3.png',
+            '/images/MCP-Server-4.png',
+            '/images/MCP-Server-5.png',
+            '/images/MCP-Server-6.png',
+            '/images/MCP-Server-7.png',
+            '/images/MCP-Server-8.png',
         ],
         github: 'https://github.com/cindyylim/MCP-PR-Workflow-Server'
     },
