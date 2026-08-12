@@ -3,13 +3,37 @@ import React from 'react';
 const Skills = () => {
     const skillCategories = [
         {
+            title: 'AI / Agentic',
+            skills: [
+                'LLM APIs',
+                'MCP',
+                'Agent workflows',
+                'Prompt engineering',
+                'Output validation',
+                'TensorFlow',
+                'Supervised/Unsupervised ML',
+            ],
+        },
+        {
             title: 'Languages',
             skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'SQL'],
         },
         {
-            title: 'Frameworks/Tools',
-            skills: ['React', 'Redux', 'GraphQL', 'PostgreSQL', 'AWS', 'Git', 'MongoDB', 'Node.js', 'Spring', 'Selenium', 'Cucumber', 'Cypress'],
-        }
+            title: 'Frontend',
+            skills: ['React', 'Redux', 'Tailwind CSS', 'GraphQL'],
+        },
+        {
+            title: 'Backend / Cloud',
+            skills: ['Node.js', 'Express', 'Spring', 'AWS (EC2, S3)', 'Git'],
+        },
+        {
+            title: 'Databases',
+            skills: ['SQL Server', 'Redis', 'PostgreSQL', 'MongoDB'],
+        },
+        {
+            title: 'Testing',
+            skills: ['JUnit', 'Cucumber', 'Cypress', 'Selenium'],
+        },
     ];
 
     const styles = {
@@ -39,47 +63,40 @@ const Skills = () => {
         },
         grid: {
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-            gap: '2.5rem',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+            gap: '2rem',
         },
         card: {
             backgroundColor: 'var(--glass-bg)',
             border: '1px solid var(--border-color)',
-            padding: '2.5rem',
+            padding: '2rem',
             borderRadius: 'var(--radius)',
             transition: 'var(--transition)',
             boxShadow: '0 10px 30px rgba(255, 143, 163, 0.05)',
         },
-        cardIcon: {
-            fontSize: '2.5rem',
-            marginBottom: '1.5rem',
-            display: 'block',
-        },
         cardTitle: {
-            fontSize: '1.6rem', /* Increased from 1.4rem */
+            fontSize: '1.4rem',
             fontFamily: 'var(--font-serif)',
             fontWeight: '700',
-            marginBottom: '1.5rem',
+            marginBottom: '1.25rem',
             color: 'var(--text-primary)',
         },
-        list: {
-            display: 'grid',
-            gridTemplateColumns: '1fr',
-            gap: '1rem',
-        },
-        item: {
-            fontSize: '1.1rem', /* Increased from 1rem */
-            color: 'var(--text-secondary)',
+        tags: {
             display: 'flex',
-            alignItems: 'center',
-            gap: '0.8rem',
-            fontFamily: 'var(--font-sans)',
-            fontWeight: '400', /* Increased from 300 for better presence */
+            flexWrap: 'wrap',
+            gap: '0.6rem',
         },
-        bullet: {
-            color: 'var(--accent-blue-dark)',
-            fontSize: '1rem',
-        }
+        tag: {
+            border: '1px solid var(--border-color)',
+            padding: '0.4rem 0.9rem',
+            borderRadius: '100px',
+            background: 'rgba(255, 255, 255, 0.6)',
+            color: 'var(--text-secondary)',
+            fontSize: '0.85rem',
+            fontWeight: '500',
+            fontFamily: 'var(--font-sans)',
+            lineHeight: 1.4,
+        },
     };
 
     return (
@@ -90,16 +107,16 @@ const Skills = () => {
             </div>
 
             <div style={styles.grid}>
-                {skillCategories.map((cat, idx) => (
-                    <div key={idx} style={styles.card} className="skill-card">
+                {skillCategories.map((cat) => (
+                    <div key={cat.title} style={styles.card} className="skill-card">
                         <h3 style={styles.cardTitle}>{cat.title}</h3>
-                        <ul style={styles.list}>
-                            {cat.skills.map((skill, sIdx) => (
-                                <li key={sIdx} style={styles.item}>
-                                    <span style={styles.bullet}>✿</span> {skill}
-                                </li>
+                        <div style={styles.tags}>
+                            {cat.skills.map((skill) => (
+                                <span key={skill} style={styles.tag}>
+                                    {skill}
+                                </span>
                             ))}
-                        </ul>
+                        </div>
                     </div>
                 ))}
             </div>

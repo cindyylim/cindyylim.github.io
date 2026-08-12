@@ -1,6 +1,8 @@
 import React from 'react';
 
 const Hero = () => {
+    const headlineTags = ['AI / Agents', 'Full Stack', 'React / Node', 'AWS'];
+
     const styles = {
         hero: {
             height: '100vh',
@@ -40,31 +42,24 @@ const Hero = () => {
             marginTop: '0.5rem',
             letterSpacing: '4px',
         },
-        description: {
-            maxWidth: '650px',
-            fontSize: '1.3rem', /* Increased from 1.2rem */
-            color: 'var(--text-secondary)',
-            marginBottom: '2.5rem',
-            fontWeight: '400', /* Increased from 300 for better contrast */
-        },
-        featured: {
+        tags: {
             display: 'flex',
-            gap: '1.5rem',
-            marginTop: '4rem',
-            fontSize: '0.8rem',
-            fontFamily: 'var(--font-sans)',
-            color: 'var(--text-secondary)',
-            opacity: 0.8,
-            alignItems: 'center',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            gap: '0.75rem',
+            maxWidth: '600px',
+            marginTop: '0.5rem',
         },
         tag: {
             border: '1px solid var(--border-color)',
-            padding: '0.3rem 1rem',
+            padding: '0.45rem 1.1rem',
             borderRadius: '100px',
             background: 'var(--glass-bg)',
-            color: 'var(--accent-blue)',
-            fontSize: '0.7rem',
+            color: 'var(--accent-blue-dark)',
+            fontSize: '0.8rem',
             fontWeight: '500',
+            fontFamily: 'var(--font-sans)',
+            letterSpacing: '0.5px',
         }
     };
 
@@ -80,8 +75,13 @@ const Hero = () => {
                 CINDY<br />
                 <span style={styles.highlight}>FULL STACK ENGINEER</span>
             </h1>
-            <p style={styles.description}>
-            </p>
+            <div style={styles.tags} aria-label="Core expertise">
+                {headlineTags.map((tag) => (
+                    <span key={tag} style={styles.tag}>
+                        {tag}
+                    </span>
+                ))}
+            </div>
         </section>
     );
 };
