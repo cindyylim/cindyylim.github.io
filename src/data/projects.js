@@ -2,9 +2,9 @@ export const projects = [
     {
         id: 'language-learning-app',
         title: 'AI Powered Language Learning App',
-        description: 'A language learning app that generates personalized quizzes of selected difficulty level and vocabulary in the target language using Google Gemini API. Supports multiple languages and provides analytics to track progress.',
+        description: 'A language learning app that generates personalized quizzes of selected difficulty level and vocabulary in the target language using OpenAI API. Supports multiple languages and provides analytics to track progress.',
         detailedDescription: 'This application leverages the power of Large Language Models (LLMs) to provide a tailored language learning experience. Users can practice vocabulary, use AI to generate vocabulary lists in multiple languages, take AI-generated quizzes, and track their progress over time. The backend is built with Node.js and Express, while the frontend utilizes React and TypeScript for a robust user experience. Check out the live project below or click on the github link to view the demo gifs.',
-        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'Google Gemini API', 'MongoDB'],
+        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
         image: '/images/vocabulary.png',
         images: [
             '/images/login.png',
