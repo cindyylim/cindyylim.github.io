@@ -48,7 +48,7 @@ const Skills = () => {
             textAlign: 'center',
         },
         title: {
-            fontSize: '2.5rem',
+            fontSize: '2.75rem',
             fontFamily: 'var(--font-serif)',
             fontWeight: '700',
             fontStyle: 'italic',
@@ -56,7 +56,7 @@ const Skills = () => {
         },
         subtitle: {
             color: 'var(--accent-blue-dark)',
-            fontSize: '1rem',
+            fontSize: '1.15rem',
             letterSpacing: '3px',
             textTransform: 'uppercase',
             fontWeight: '600',
@@ -75,7 +75,7 @@ const Skills = () => {
             boxShadow: '0 10px 30px rgba(255, 143, 163, 0.05)',
         },
         cardTitle: {
-            fontSize: '1.4rem',
+            fontSize: '1.65rem',
             fontFamily: 'var(--font-serif)',
             fontWeight: '700',
             marginBottom: '1.25rem',
@@ -88,11 +88,11 @@ const Skills = () => {
         },
         tag: {
             border: '1px solid var(--border-color)',
-            padding: '0.4rem 0.9rem',
+            padding: '0.55rem 1.1rem',
             borderRadius: '100px',
             background: 'rgba(255, 255, 255, 0.6)',
             color: 'var(--text-secondary)',
-            fontSize: '0.85rem',
+            fontSize: '1.05rem',
             fontWeight: '500',
             fontFamily: 'var(--font-sans)',
             lineHeight: 1.4,

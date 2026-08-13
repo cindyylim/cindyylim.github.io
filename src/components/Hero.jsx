@@ -14,7 +14,7 @@ const Hero = () => {
             position: 'relative',
         },
         sub: {
-            fontSize: '1rem', /* Increased for accessibility */
+            fontSize: '1.2rem',
             fontFamily: 'var(--font-sans)',
             color: 'var(--accent-blue-dark)',
             letterSpacing: '2px',
@@ -35,7 +35,7 @@ const Hero = () => {
             color: 'var(--accent-blue-dark)',
             WebkitTextStroke: 'none',
             display: 'block',
-            fontSize: '0.45em',
+            fontSize: '0.5em',
             fontStyle: 'normal',
             fontFamily: 'var(--font-sans)',
             fontWeight: '400',
@@ -52,11 +52,11 @@ const Hero = () => {
         },
         tag: {
             border: '1px solid var(--border-color)',
-            padding: '0.45rem 1.1rem',
+            padding: '0.55rem 1.25rem',
             borderRadius: '100px',
             background: 'var(--glass-bg)',
             color: 'var(--accent-blue-dark)',
-            fontSize: '0.8rem',
+            fontSize: '1.05rem',
             fontWeight: '500',
             fontFamily: 'var(--font-sans)',
             letterSpacing: '0.5px',
