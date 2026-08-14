@@ -1,27 +1,5 @@
 export const projects = [
     {
-        id: 'language-learning-app',
-        title: 'AI Powered Language Learning App',
-        description: 'A language learning app that generates personalized quizzes of selected difficulty level and vocabulary in the target language using OpenAI API. Supports multiple languages and provides analytics to track progress.',
-        detailedDescription: 'This application leverages the power of Large Language Models (LLMs) to provide a tailored language learning experience. Users can practice vocabulary, use AI to generate vocabulary lists in multiple languages, take AI-generated quizzes, and track their progress over time. The backend is built with Node.js and Express, while the frontend utilizes React and TypeScript for a robust user experience. Check out the live project below or click on the github link to view the demo gifs.',
-        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
-        image: '/images/vocabulary.png',
-        images: [
-            '/images/login.png',
-            '/images/dashboard.png',
-            '/images/gen-vocab.png',
-            '/images/vocabulary.png',
-            '/images/vocab-list.png',
-            '/images/edit-vocab.png',
-            '/images/del-vocab.png',
-            '/images/gen-quiz.png',
-            '/images/quiz.png',
-            '/images/analytics.png',
-        ],
-        link: 'https://languagelearningapp-z0ca.onrender.com/login',
-        github: 'https://github.com/cindyylim/LanguageLearningApp/tree/main'
-    },
-    {
         id: 'file-sync-app',
         title: 'File sync app',
         description: 'A file sync app that allows users to sync their files to the cloud and access them from any device.',
