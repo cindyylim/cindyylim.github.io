@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hero = () => {
-    const headlineTags = ['AI / Agents', 'Full Stack', 'React / Node', 'AWS'];
+    const headlineTags = [];
 
     const styles = {
         hero: {

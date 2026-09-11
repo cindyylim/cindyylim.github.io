@@ -16,7 +16,7 @@ const Skills = () => {
         },
         {
             title: 'Languages',
-            skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'SQL'],
+            skills: ['Java', 'Python', 'C#', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'SQL'],
         },
         {
             title: 'Frontend',
