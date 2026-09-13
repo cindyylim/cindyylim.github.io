@@ -2,8 +2,8 @@ import './globals.css';
 import ClientLayout from '../src/components/ClientLayout';
 
 export const metadata = {
-    title: 'Cindy Lim | Full Stack Portfolio',
-    description: 'Crafting elegant digital experiences where sophisticated design meets powerful performance.',
+    title: 'Cindy Lim — Projects',
+    description: 'Full stack engineer.',
 };
 
 export default function RootLayout({ children }) {
