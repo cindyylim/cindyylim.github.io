@@ -100,15 +100,8 @@ export const projects = [
         categories: ['AI'],
         image: '/images/icons/mcp-pr-icon.png',
         images: [
-            '/images/mcp-pr-workflow-server.png',
-            '/images/MCP-Server-1.png',
-            '/images/MCP-Server-2.png',
-            '/images/MCP-Server-3.png',
-            '/images/MCP-Server-4.png',
-            '/images/MCP-Server-5.png',
-            '/images/MCP-Server-6.png',
-            '/images/MCP-Server-7.png',
-            '/images/MCP-Server-8.png',
+            '/images/mcp-pr-workflow-server.gif',
+            '/images/mcp-pr-workflow-server-2.gif',
         ],
         github: 'https://github.com/cindyylim/MCP-PR-Workflow-Server'
     },
