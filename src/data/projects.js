@@ -72,6 +72,13 @@ export const projects = [
         categories: ['full stack'],
         image: '/images/icons/tickethub-icon.png',
         images: [
+            '/images/tickethub/tickethub-login.png',
+            '/images/tickethub/tickethub-dashboard.png',
+            '/images/tickethub/tickethub-event.png',
+            '/images/tickethub/tickethub-seats.png',
+            '/images/tickethub/tickethub-waiting-queue.png',
+            '/images/tickethub/tickethub-purchase-ticket.png',
+            '/images/tickethub/tickethub-my-ticket.png',
         ],
         github: 'https://github.com/cindyylim/ticket-system'
     },
